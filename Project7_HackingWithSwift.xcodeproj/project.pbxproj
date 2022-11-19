@@ -14,6 +14,8 @@
 		1591706729281AC400A5DB7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1591706629281AC400A5DB7F /* Assets.xcassets */; };
 		1591706A29281AC400A5DB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1591706829281AC400A5DB7F /* LaunchScreen.storyboard */; };
 		159170722928216F00A5DB7F /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159170712928216F00A5DB7F /* Petition.swift */; };
+		15917074292976A500A5DB7F /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15917073292976A500A5DB7F /* Petitions.swift */; };
+		15917076292979C300A5DB7F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15917075292979C300A5DB7F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1591706929281AC400A5DB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1591706B29281AC400A5DB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		159170712928216F00A5DB7F /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		15917073292976A500A5DB7F /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		15917075292979C300A5DB7F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 				1591705D29281ABC00A5DB7F /* AppDelegate.swift */,
 				1591705F29281ABC00A5DB7F /* SceneDelegate.swift */,
 				1591706129281ABC00A5DB7F /* ViewController.swift */,
+				15917075292979C300A5DB7F /* DetailViewController.swift */,
 				159170712928216F00A5DB7F /* Petition.swift */,
+				15917073292976A500A5DB7F /* Petitions.swift */,
 				1591706329281ABC00A5DB7F /* Main.storyboard */,
 				1591706629281AC400A5DB7F /* Assets.xcassets */,
 				1591706829281AC400A5DB7F /* LaunchScreen.storyboard */,
@@ -144,7 +150,9 @@
 				1591706229281ABC00A5DB7F /* ViewController.swift in Sources */,
 				159170722928216F00A5DB7F /* Petition.swift in Sources */,
 				1591705E29281ABC00A5DB7F /* AppDelegate.swift in Sources */,
+				15917076292979C300A5DB7F /* DetailViewController.swift in Sources */,
 				1591706029281ABC00A5DB7F /* SceneDelegate.swift in Sources */,
+				15917074292976A500A5DB7F /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
